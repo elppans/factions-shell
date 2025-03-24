@@ -46,8 +46,8 @@ cp -rf "$ACTION_TOOLS"/* "$ACTION_DIR"
 chmod +x "$ACTION_DIR"/"$ACTION_TOOLS"/*/*
 
 # Copie os binários para o sistema
-cd "$LOCAL_BIN"
-sudo cp -a * "/$LOCAL_BIN"
+# cd "$LOCAL_BIN"
+# sudo cp -a * "/$LOCAL_BIN"
 
 # Reinicie o Nautilus para aplicar as mudanças
 nautilus -q
