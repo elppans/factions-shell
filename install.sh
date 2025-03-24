@@ -1,10 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
-# Função para instalar um pacote usando o gerenciador de pacotes disponível
-#!/bin/bash
-
 # Função para verificar e instalar pacotes
 instalar_pacote() {
     local PACKAGE="$1"
@@ -32,6 +27,7 @@ for CMD in gtkhash file-roller xterm; do
 done
 
 
+# shellcheck disable=SC2034
 LOCAL_BIN="usr/local/bin"
 ACTION_DIR="$HOME/.local/share/nautilus/scripts"
 ACTION_TOOLS="factions-shell"
