@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir -p $HOME/loop_img
+grep 'loop_img' "$HOME/.hidden" || echo 'loop_img' >> "$HOME/.hidden"
+xterm -e "sudo -S mount "$@" $HOME/loop_img"
+
