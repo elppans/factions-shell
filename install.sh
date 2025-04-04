@@ -39,7 +39,7 @@ mkdir -p "$ACTION_DIR"
 cp -rf "$ACTION_TOOLS"/* "$ACTION_DIR"
 
 # Torne o script de conversão executável
-chmod +x "$ACTION_DIR"/"$ACTION_TOOLS"/*/*
+chmod +x "$ACTION_DIR"/*
 
 # Copie os binários para o sistema
 # cd "$LOCAL_BIN"
