@@ -48,4 +48,4 @@ chmod +x "$ACTION_DIR"/*
 # Reinicie o Nautilus para aplicar as mudanças
 nautilus -q
 
-echo "Configuração concluída. As ações 'El-Images' foi adicionada ao menu de contexto do Nautilus."
+echo "Configuração concluída. As ações de \"$ACTION_TOOLS\" foi adicionada ao menu de contexto do Nautilus."
